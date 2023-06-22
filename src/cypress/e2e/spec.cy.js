@@ -4,6 +4,6 @@ describe('template spec', () => {
     cy.get('.btn').click()
     cy.get('#inputDisciplina').select('ADS030 - Manutenção de Software e DevOps')
     cy.get('#inputProva').select('A2')
-    cy.get('#inputArgumentacao').type('Eu mereço nota 10!')
+    cy.get('#inputArgumentacao').type('Eu mereço nota 10! ')
   })
 })
